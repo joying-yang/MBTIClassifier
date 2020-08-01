@@ -1,1 +1,4 @@
 # MBTIClassifier
+I used a database from Kaggle for model training, but hid the file in case I get sued by Kaggle or something. This was mostly a fun project for me to learn how to use Flask. At the time of writing, the website still looks plain and ugly, and I'm working on fixing that. It's also not hosted anywhere because I am poor, but that my change in the future.
+
+The prediction isn't that accurate-- the original dataset was taken from a forum where users talked about their own MBTIs, which isn't necessarily representative of how people text in most settings. Also, the features are only the frequency of the words, and doesn't take into consideration anything else such as sentence structure. I may come back and make a better classifier, but for now this one is barely better than a guess. 
