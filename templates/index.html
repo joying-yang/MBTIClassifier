@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=" " dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title></title>
+  </head>
+  <body>
+    <div class="container h-100">
+      <div class="justify-content-center d-flex align-items-center text-center">
+        <div>
+          <div>Enter your text</div>
+          <form method="post" action=".">
+            <div class="text-center">
+              <p><textarea name="text" rows="10" cols="50" ></textarea></p>
+              <p><input type="submit" value="What MBTI are you?" /></p>
+              <p>{errors}</p>
+              <p>{result}</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
